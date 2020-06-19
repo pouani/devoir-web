@@ -1,0 +1,167 @@
+body{
+    background-color: white;
+    display: inline-flexbox;
+    
+}
+
+.hea{
+     display: flex;
+     justify-content: space-between;
+    
+    
+}
+h1{
+    font-style: 50px;
+    display: inline-block;
+}
+.titre{
+    text-align: center;
+}
+#clic{
+    font-style: 18px;
+    border-radius: 20px;
+    width: 80px;
+    height: 37px;
+    border: none;
+    background-color: rgba(76, 0, 130, 0.829);
+    color: white;
+}
+#clic2{
+    font-style: 18px;
+    border-radius: 20px;
+    width: 80px;
+    height: 37px;
+    border: none;
+    background-color: rgba(197, 194, 199, 0.699);
+    color: rgba(117, 111, 111, 0.966);
+    
+    
+}
+ul{
+    /*on supprime les puces et on centre la liste parrapport a la page et on attribut une largeur*/
+    list-style: none;
+    width: 700px;
+    display: inline-flex;
+    
+      
+}
+li{
+    /* on fixe les dimensions des elements de notre liste*/
+    width: 200px;
+    height: 250px;
+    border: none;
+    margin: 25px;
+    padding: 0px;
+    background-position: center;
+    position: relative;
+    border-radius: 40px;
+    
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    
+}
+/*couleur a nos differents blocs de lien*/
+#item1{ background-color: rgb(250, 135, 202);}
+#item2{ background-color:rgb(101, 2, 172);}
+#item3{ background-color:rgb(255, 100, 38);}
+
+.lign{
+    display: inline-flex;
+    text-align: center;
+    padding-left: 400px;
+}
+
+.bloc{
+    text-align: center;
+}
+button{
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+    bottom: -14px;
+    margin: 3px;
+    text-align: center;
+}
+#icon_Boutton{
+    border: 1px solid #000f;
+    width: 300px;
+    text-align: center;
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    bottom: -12px;
+    vertical-align: middle;
+    
+}
+
+#txt{
+    text-align: center;
+}
+.lien{
+    text-align: center;
+    display: flex;
+}
+.lien a{
+    display: block;
+    height: 50%;
+    width: 100%;
+
+}
+h4{
+    color: #000;
+    font-weight: bold;
+}
+li h3{
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+}
+li a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+li:hover{
+   top: 7px;
+}
+button:hover{
+    top: 2px;
+}
+#bodi{
+    border: 1px solid #000;
+    width: 500px;
+    border-radius: 30px;
+    margin: 40px;
+    display: flex;
+    
+}
+.service2{
+    margin-left:390px ;  
+}
+.bodi{
+    text-align: center;
+    
+}
+span{
+    display: inline-block;
+   
+}
+p{
+    color: rgba(169, 169, 169, 0.514);
+}
+#bodi a{
+    
+    border-radius: inherit;
+    height: 50%;
+    padding-top: 25px;
+    width: 40%;
+}
+
+
+
+
